@@ -2,7 +2,6 @@
 
 namespace seregazhuk\PhpWatcher\Watcher;
 
-use React\EventLoop\Factory as EventLoopFactory;
 use seregazhuk\PhpWatcher\Config\WatchList;
 use seregazhuk\PhpWatcher\Screen;
 use Symfony\Component\Finder\Finder;
@@ -18,7 +17,7 @@ final class Factory
             new ResourceCacheMemory(), self::makeFinder($watchList), new Crc32ContentHash()
         );
 
-        return new Watcher(EventLoopFactory::create(), $resourceWatcher, $screen);
+        return new Watcher($resourceWatcher, $screen);
     }
 
     private static function makeFinder(WatchList $watchList): Finder
