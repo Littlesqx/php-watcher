@@ -1,5 +1,5 @@
 {
-    "name": "seregazhuk/php-watcher",
+    "name": "littlesqx/php-watcher",
     "description": "Automatically restart PHP application once the source code changes",
     "license": "MIT",
     "authors": [
