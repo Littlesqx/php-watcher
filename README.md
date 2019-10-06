@@ -1,6 +1,6 @@
 # PHP-watcher
 
-[![Build Status](https://travis-ci.org/seregazhuk/php-watcher.svg?branch=master)](https://travis-ci.org/seregazhuk/php-watcher)
+[![Build Status](https://travis-ci.org/littlesqx/php-watcher.svg?branch=master)](https://travis-ci.org/littlesqx/php-watcher)
 
 PHP-watcher helps develop long-running PHP applications by automatically
  restarting them when file changes in the directory are detected.
@@ -18,7 +18,7 @@ PHP-watcher does not require any additional changes to your code or method of
 You can install this package globally like this:
 
 ```bash
-composer global require seregazhuk/php-watcher
+composer global require littlesqx/php-watcher
 ```
 
 After that phpunit-watcher watch can be run in any directory on your system.
@@ -27,7 +27,7 @@ Alternatively, you can install the package locally as a dev dependency in your
  project:
 
 ```bash
-composer require seregazhuk/php-watcher --dev
+composer require littlesqx/php-watcher --dev
 ```
 Locally installed you can run it with `vendor/bin/php-watcher`.
 
@@ -176,6 +176,6 @@ MIT [http://rem.mit-license.org](http://rem.mit-license.org)
 Why not star this GitHub repo? I'd love the attention!
 Or, you can donate to my project on PayPal:
 
-[![Support me with some coffee](https://img.shields.io/badge/donate-paypal-orange.svg)](https://www.paypal.me/seregazhuk)
+[![Support me with some coffee](https://img.shields.io/badge/donate-paypal-orange.svg)](https://www.paypal.me/seregazhuk) (Original Author: @seregazhuk)
 
 Thanks! 
