@@ -6,7 +6,7 @@ php:
   - 7.3
 
 before_script:
-  - pecl install swoole
+  - pecl install swoole -f
   - composer install --prefer-source --no-interaction --dev
   - composer dump-autoload
 
